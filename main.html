@@ -10,6 +10,27 @@
 	<!-- the entire body must be written by student -->
     <script type="text/javascript" src="./script.js">
 </script>
+	<form action="/submit" method="post" id="feedbackForm">
+		<h1>Feedback Form</h1>
+		<label for="name" >Name*   : </label>
+		<input id="name"  type="text" minlength="3" maxlength="50" placeholder="Write your full name" required>
+<br>
+		<br>
+		<label for="portfolio" >Portfolio* : </label>
+		<input id="portfolio" type="url" placeholder="URL link for Portfolio" required>
+<br>
+		<br>
+		<label for="favColor">Favorite Color : </label>
+		<input id="favColor" type="color">
+<br>
+		<br>
+		<label for="likeness">Likeness</label>
+		<input id="likeness" type="range" min="1" max="100">
+
+		<br>
+		<br>
+		<input type="submit" style="background-color: blue; color: white;" value="Submit">
+	</form>
 
 </body>
 
